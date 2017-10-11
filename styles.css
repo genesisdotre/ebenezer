@@ -108,11 +108,11 @@ footer {
     position: relative;
     top: 7px; }
 
-h2 {
+h1, h2, h3 {
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
-h2 + p, h2 + ol, h2 + ul {
-  margin-top: 0;
+h2 + p, h1 + ul, h2 + ul, h3 + ul {
+  margin-top: 5px;
 }
