@@ -13,6 +13,34 @@
 	</head>
 	<body>
 
+			<style>
+				#sticky-header {
+					position: fixed;
+					background: black;
+					width: 100vw;
+					z-index: 99999;
+					color: white;
+					padding: 15px;
+					font-size: 0.7em;
+				}
+				#sticky-header input {
+					padding: 0 5px;
+					width: 420px;
+					max-width: 100%;
+					font-size: 15px;
+					font-family: monospace;
+					outline: none; 
+					border: 0;
+					background: gray;
+				}
+
+			</style>
+
+			<div id="sticky-header">
+				We are live! Send ETH to: <input readonly value="0x3Edca4A0b54Fe952875ca9BEa6Cd654Fa2432dBC">
+			</div>
+
+
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
@@ -21,9 +49,12 @@
 						<div class="content">
 							<h1>ebenezer.wales</h1>
 							<p class="major">Majestic building.<br>Piece of history.<br>Modernized on the blockchain.<br>£40k purchase price.</p>
-							<ul class="actions vertical">
+<!-- 							<ul class="actions vertical">
 								<li><a href="#first" class="button big wide smooth-scroll-middle">Invest in your legacy</a></li>
-							</ul>
+							</ul> -->
+
+							
+
 						</div>
 						<div class="image">
 							<img src="gallery/img1.jpg" alt="" />
